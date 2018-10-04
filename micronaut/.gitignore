@@ -1,0 +1,14 @@
+## Gradle ##
+.gradle
+gradle/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.jasper
+
+### OUT ###
+out/
+build/
