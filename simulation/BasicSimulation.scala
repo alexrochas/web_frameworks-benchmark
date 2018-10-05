@@ -33,7 +33,7 @@ class BasicSimulation extends Simulation {
   val headers_10 = Map("Content-Type" -> "application/x-www-form-urlencoded") // Note the headers specific to a given request
 
   val scn = scenario("Web Framework Benchmark") // A scenario is a chain of requests and pauses
-    .exec(http("request_1")
+    .exec(http("Intensive Processing")
       .get("/intensive-processing?description=about"))
 
   setUp(scn.inject(atOnceUsers(100000)).protocols(httpProtocol))
