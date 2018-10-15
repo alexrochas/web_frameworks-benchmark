@@ -24,6 +24,10 @@ Bellow, the results.
 
 ![camel](./camel/profile.png)
 
+## Fastify
+
+![fastify](./fastify/profile.png)
+
 ## Partial result
 
 [Micronaut](http://micronaut.io/)

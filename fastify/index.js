@@ -11,7 +11,7 @@ fastify.get('/intensive-processing', async (req, reply) => {
   return data.filter(({ description }) => description.includes(req.query.description));
 });
 
-fastify.listen(3000, (err, address) => {
+fastify.listen(8080, (err, address) => {
   if (err) throw err;
 
   fastify.log.info(`server listening on ${address}`)
