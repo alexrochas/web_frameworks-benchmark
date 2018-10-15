@@ -80,6 +80,9 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
+### Node.js ###
+node_modules/
+
 ### Java ###
 # Compiled class file
 *.class
