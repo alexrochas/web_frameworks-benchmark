@@ -49,7 +49,7 @@ func main() {
 	readJSONFile(&collection)
 
 	router := httprouter.New()
-	router.GET("/", func(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+	router.GET("/intensive-processing", func(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 		description := r.URL.Query().Get("description")
 
 		filtered := filter(collection, func(data jsonData) bool {
