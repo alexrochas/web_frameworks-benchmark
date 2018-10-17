@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"runtime"
+	"strings"
 
 	jsoniter "github.com/json-iterator/go"
 	"github.com/julienschmidt/httprouter"
@@ -53,7 +54,7 @@ func main() {
 		description := r.URL.Query().Get("description")
 
 		filtered := filter(collection, func(data jsonData) bool {
-			return data.Description == description
+			return strings.Contains(data.Description, description)
 		})
 
 		w.Header().Set("Content-Type", "application/json")
