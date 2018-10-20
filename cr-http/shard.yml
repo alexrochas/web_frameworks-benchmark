@@ -1,0 +1,13 @@
+name: cr-http
+version: 0.1.0
+
+authors:
+  - Andreo Vieira <andreo.vieira@agibank.com.br>
+
+targets:
+  cr-http:
+    main: src/cr-http.cr
+
+crystal: 0.26.1
+
+license: MIT
