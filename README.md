@@ -28,6 +28,10 @@ Bellow, the results.
 
 ![fastify](./fastify/profile.png)
 
+## Go
+
+![go](./go-httprouter/profile.png)
+
 ## Partial result
 
 [Micronaut](http://micronaut.io/)
